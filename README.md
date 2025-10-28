@@ -6,7 +6,8 @@ CRUD Operations:
 Easily Create, Read, and Delete skill entries via the web interface.
 Real-time Data: Data is stored in a MySQL database, providing persistence and real-time updates across sessions.
 Responsive UI: Built with Streamlit for a clean, mobile-friendly interface.
-Proficiency Levels: Tracks skills using predefined levels: Beginner, Intermediate, and Expert.🛠️ PrerequisitesBefore running the application, you need the following software installed and configured;
+Proficiency Levels: Tracks skills using predefined levels: Beginner, Intermediate, and Expert.
+Prerequisites before running the application, you need the following software installed and configured;
 1. Python 3ySQL Server
 2. A running MySQL instance.
 3. Database Credentials: User with rights to create databases and tables.
