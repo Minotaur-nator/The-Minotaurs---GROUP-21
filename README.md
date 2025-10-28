@@ -1,7 +1,8 @@
 # Team Skill Inventory App
 A simple, effective, and real-time skill tracking dashboard built using Streamlit for the frontend and MySQL for persistent backend storage. This application allows teams to quickly input, view, and manage individual skills and proficiency levels.
 
-## FeaturesCRUD Operations:
+## Features
+CRUD Operations:
 Easily Create, Read, and Delete skill entries via the web interface.
 Real-time Data: Data is stored in a MySQL database, providing persistence and real-time updates across sessions.
 Responsive UI: Built with Streamlit for a clean, mobile-friendly interface.
@@ -21,12 +22,14 @@ cd team-skill-inventory
   DB_NAME = "skill_inventory_db" 
 The application will automatically attempt to create the skill_inventory_db database and the team_skills table if they do not already exist on the first run.
 
-## Run the Streamlit Application Start the application from your terminal:
+## Run the Streamlit Application
+Start the application from your terminal:
 streamlit run <your-script-name>.py 
 (Assuming your file is named something like main.py)
 The application will launch in your browser, typically at http://localhost:8501.
 
-## UsageThe application is split into two main sections:
+## Usage
+The application is split into two main sections:
 1. Add New Skill Entry Use the form in the left column to add new data:
    Person's Name: The team member's name.Skill Name: The specific skill (e.g., Python, SQL, Cloud Architecture).
    Proficiency Level: Select from Beginner, Intermediate, or Expert. Click "Save Skill Entry" to commit the data to MySQL.
@@ -34,7 +37,7 @@ The application will launch in your browser, typically at http://localhost:8501.
 3. Delete Skill EntryBelow the main table, you can remove data:Select the specific entry you want to delete from the dropdown menu (e.g., Alice | Python | Expert).
       Click "Delete Selected Entry".
 
-## contributors:
+## Contributors:
 Gloria Kayasa - Project Manager
 Clinton Nwachukwu - Error Handler
 Phils Blay - Ui designer
