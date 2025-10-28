@@ -38,7 +38,7 @@ The application is split into two main sections:
 3. Delete Skill EntryBelow the main table, you can remove data:Select the specific entry you want to delete from the dropdown menu (e.g., Alice | Python | Expert).
       Click "Delete Selected Entry".
 
-## Contributors:
+## Contributors
 Gloria Kayasa - Project Manager
 Clinton Nwachukwu - Error Handler
 Phils Blay - Ui designer
